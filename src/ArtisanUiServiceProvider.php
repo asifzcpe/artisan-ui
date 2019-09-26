@@ -12,5 +12,6 @@ class ArtisanUiServiceProvider extends ServiceProvider
 	{
 		include 'route.php';
 		$this->loadViewsFrom(__DIR__.'/resources/views','ArtisanUi');
+		$this->publishes([__DIR__.'/dist/'=>public_path('/vendor/artisan-ui')],'artisan-ui');
 	}
 }
