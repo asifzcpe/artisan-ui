@@ -11,5 +11,5 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('src/resources/js/app.js', '../../public/vendor/artisan-ui/js')
-    .sass('src/resources/sass/app.scss', '../../public/vendor/artisan-ui/css');
+mix.js('src/resources/js/app.js', 'dist/js')
+   .sass('src/resources/sass/app.scss', 'dist/css');
