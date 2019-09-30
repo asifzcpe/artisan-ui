@@ -9,18 +9,12 @@
             "email": "rahmanasif05004@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Asif\\ArtisanUi\\":"src"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Asif\\ArtisanUi\\ArtisanUiServiceProvider"
-            ]
-        }
-    },
+	"minimum-stability": "dev",
+	"prefer-stable" : true,
     "require": {}
 }
