@@ -9,6 +9,7 @@
             "email": "rahmanasif05004@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Asif\\ArtisanUi\\":"src"
@@ -21,6 +22,5 @@
             ]
         }
     },
-    "minimum-stability": "dev",
     "require": {}
 }
