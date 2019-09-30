@@ -1,26 +1,18 @@
 {
-    "name": "asif/artisan-ui",
-    "description": "This package is used to generate modules for laravel app",
-    "type": "library",
+    "name": "asif/artisan-dashboard",
+    "description": "this is artisan dashboard",
     "license": "MIT",
     "authors": [
         {
-            "name": "rahmanasif05004",
+            "name": "Asif Rahman",
             "email": "rahmanasif05004@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "require": {},
     "autoload": {
         "psr-4": {
             "Asif\\ArtisanUi\\":"src"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Asif\\ArtisanUi\\ArtisanUiServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "dev",
-    "require": {}
 }
