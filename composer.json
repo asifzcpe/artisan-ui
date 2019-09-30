@@ -1,0 +1,17 @@
+{
+    "name": "asif/artisan-dashboard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Asif Rahman",
+            "email": "rahmanasif05004@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Asif\\ArtisanUi\\":"src"
+        }
+    }
+}
