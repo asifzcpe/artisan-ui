@@ -1,6 +1,6 @@
 {
     "name": "asif/artisan-ui",
-    "description": "This package is used to generate modules for laravel app",
+    "description": "This package is used to run common artisan command in gui",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -14,7 +14,6 @@
             "Asif\\ArtisanUi\\":"src"
         }
     },
-	"minimum-stability": "dev",
-	"prefer-stable" : true,
+    "minimum-stability": "dev",
     "require": {}
 }
