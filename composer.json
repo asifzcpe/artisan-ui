@@ -1,5 +1,5 @@
 {
-    "name": "asif/artisan-dashboard",
+    "name": "asif/artisan-ui",
     "license": "MIT",
     "authors": [
         {
@@ -8,6 +8,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {},
     "autoload": {
         "psr-4": {
