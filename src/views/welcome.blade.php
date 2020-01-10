@@ -49,5 +49,5 @@
 	 </div>
 </div>
 </body>
-<script src="{{ asset('vendor/artisan-ui/js/app.js') }}"></script>
+<script src="{{ asset('vendor/asif/artisan-ui/src/dist/js/app.js') }}"></script>
 </html>
