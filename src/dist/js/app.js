@@ -49869,7 +49869,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         runMigration: function runMigration() {
             var _this = this;
 
-            axios.get('artisan-ui/migration_rollback').then(function (response) {
+            axios.get('artisan-ui/run_migration').then(function (response) {
                 _this.runMigrationMessage = response.data;
             }).catch(function (error) {
                 _this.runMigrationMessage = error;
